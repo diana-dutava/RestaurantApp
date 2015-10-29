@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B2D7F81BE2928C0028A8BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7F71BE2928C0028A8BB /* Foundation.framework */; };
+		84B2D7FA1BE2928C0028A8BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7F91BE2928C0028A8BB /* CoreGraphics.framework */; };
+		84B2D7FC1BE2928C0028A8BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7FB1BE2928C0028A8BB /* UIKit.framework */; };
+		84B2D8021BE2928C0028A8BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D8001BE2928C0028A8BB /* InfoPlist.strings */; };
+		84B2D8041BE2928C0028A8BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D8031BE2928C0028A8BB /* main.m */; };
+		84B2D8081BE2928C0028A8BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D8071BE2928C0028A8BB /* AppDelegate.m */; };
+		84B2D80B1BE2928C0028A8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D8091BE2928C0028A8BB /* Main.storyboard */; };
+		84B2D80E1BE2928C0028A8BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D80D1BE2928C0028A8BB /* ViewController.m */; };
+		84B2D8101BE2928C0028A8BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D80F1BE2928C0028A8BB /* Images.xcassets */; };
+		84B2D8171BE2928C0028A8BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D8161BE2928C0028A8BB /* XCTest.framework */; };
+		84B2D8181BE2928C0028A8BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7F71BE2928C0028A8BB /* Foundation.framework */; };
+		84B2D8191BE2928C0028A8BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7FB1BE2928C0028A8BB /* UIKit.framework */; };
+		84B2D8211BE2928C0028A8BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D81F1BE2928C0028A8BB /* InfoPlist.strings */; };
+		84B2D8231BE2928C0028A8BB /* RestaurantTADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D8221BE2928C0028A8BB /* RestaurantTADTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B2D81A1BE2928C0028A8BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B2D7EC1BE2928C0028A8BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B2D7F31BE2928C0028A8BB;
+			remoteInfo = RestaurantTAD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B2D7F41BE2928C0028A8BB /* RestaurantTAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantTAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2D7F71BE2928C0028A8BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84B2D7F91BE2928C0028A8BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84B2D7FB1BE2928C0028A8BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84B2D7FF1BE2928C0028A8BB /* RestaurantTAD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestaurantTAD-Info.plist"; sourceTree = "<group>"; };
+		84B2D8011BE2928C0028A8BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B2D8031BE2928C0028A8BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B2D8051BE2928C0028A8BB /* RestaurantTAD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestaurantTAD-Prefix.pch"; sourceTree = "<group>"; };
+		84B2D8061BE2928C0028A8BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B2D8071BE2928C0028A8BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B2D80A1BE2928C0028A8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B2D80C1BE2928C0028A8BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84B2D80D1BE2928C0028A8BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84B2D80F1BE2928C0028A8BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84B2D8151BE2928C0028A8BB /* RestaurantTADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantTADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B2D8161BE2928C0028A8BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84B2D81E1BE2928C0028A8BB /* RestaurantTADTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestaurantTADTests-Info.plist"; sourceTree = "<group>"; };
+		84B2D8201BE2928C0028A8BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B2D8221BE2928C0028A8BB /* RestaurantTADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantTADTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B2D7F11BE2928C0028A8BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2D7FA1BE2928C0028A8BB /* CoreGraphics.framework in Frameworks */,
+				84B2D7FC1BE2928C0028A8BB /* UIKit.framework in Frameworks */,
+				84B2D7F81BE2928C0028A8BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2D8121BE2928C0028A8BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2D8171BE2928C0028A8BB /* XCTest.framework in Frameworks */,
+				84B2D8191BE2928C0028A8BB /* UIKit.framework in Frameworks */,
+				84B2D8181BE2928C0028A8BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B2D7EB1BE2928C0028A8BB = {
+			isa = PBXGroup;
+			children = (
+				84B2D7FD1BE2928C0028A8BB /* RestaurantTAD */,
+				84B2D81C1BE2928C0028A8BB /* RestaurantTADTests */,
+				84B2D7F61BE2928C0028A8BB /* Frameworks */,
+				84B2D7F51BE2928C0028A8BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B2D7F51BE2928C0028A8BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D7F41BE2928C0028A8BB /* RestaurantTAD.app */,
+				84B2D8151BE2928C0028A8BB /* RestaurantTADTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B2D7F61BE2928C0028A8BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D7F71BE2928C0028A8BB /* Foundation.framework */,
+				84B2D7F91BE2928C0028A8BB /* CoreGraphics.framework */,
+				84B2D7FB1BE2928C0028A8BB /* UIKit.framework */,
+				84B2D8161BE2928C0028A8BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B2D7FD1BE2928C0028A8BB /* RestaurantTAD */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D8061BE2928C0028A8BB /* AppDelegate.h */,
+				84B2D8071BE2928C0028A8BB /* AppDelegate.m */,
+				84B2D8091BE2928C0028A8BB /* Main.storyboard */,
+				84B2D80C1BE2928C0028A8BB /* ViewController.h */,
+				84B2D80D1BE2928C0028A8BB /* ViewController.m */,
+				84B2D80F1BE2928C0028A8BB /* Images.xcassets */,
+				84B2D7FE1BE2928C0028A8BB /* Supporting Files */,
+			);
+			path = RestaurantTAD;
+			sourceTree = "<group>";
+		};
+		84B2D7FE1BE2928C0028A8BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D7FF1BE2928C0028A8BB /* RestaurantTAD-Info.plist */,
+				84B2D8001BE2928C0028A8BB /* InfoPlist.strings */,
+				84B2D8031BE2928C0028A8BB /* main.m */,
+				84B2D8051BE2928C0028A8BB /* RestaurantTAD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B2D81C1BE2928C0028A8BB /* RestaurantTADTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D8221BE2928C0028A8BB /* RestaurantTADTests.m */,
+				84B2D81D1BE2928C0028A8BB /* Supporting Files */,
+			);
+			path = RestaurantTADTests;
+			sourceTree = "<group>";
+		};
+		84B2D81D1BE2928C0028A8BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B2D81E1BE2928C0028A8BB /* RestaurantTADTests-Info.plist */,
+				84B2D81F1BE2928C0028A8BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B2D7F31BE2928C0028A8BB /* RestaurantTAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B2D8261BE2928C0028A8BB /* Build configuration list for PBXNativeTarget "RestaurantTAD" */;
+			buildPhases = (
+				84B2D7F01BE2928C0028A8BB /* Sources */,
+				84B2D7F11BE2928C0028A8BB /* Frameworks */,
+				84B2D7F21BE2928C0028A8BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurantTAD;
+			productName = RestaurantTAD;
+			productReference = 84B2D7F41BE2928C0028A8BB /* RestaurantTAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B2D8141BE2928C0028A8BB /* RestaurantTADTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B2D8291BE2928C0028A8BB /* Build configuration list for PBXNativeTarget "RestaurantTADTests" */;
+			buildPhases = (
+				84B2D8111BE2928C0028A8BB /* Sources */,
+				84B2D8121BE2928C0028A8BB /* Frameworks */,
+				84B2D8131BE2928C0028A8BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B2D81B1BE2928C0028A8BB /* PBXTargetDependency */,
+			);
+			name = RestaurantTADTests;
+			productName = RestaurantTADTests;
+			productReference = 84B2D8151BE2928C0028A8BB /* RestaurantTADTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B2D7EC1BE2928C0028A8BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					84B2D8141BE2928C0028A8BB = {
+						TestTargetID = 84B2D7F31BE2928C0028A8BB;
+					};
+				};
+			};
+			buildConfigurationList = 84B2D7EF1BE2928C0028A8BB /* Build configuration list for PBXProject "RestaurantTAD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B2D7EB1BE2928C0028A8BB;
+			productRefGroup = 84B2D7F51BE2928C0028A8BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B2D7F31BE2928C0028A8BB /* RestaurantTAD */,
+				84B2D8141BE2928C0028A8BB /* RestaurantTADTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B2D7F21BE2928C0028A8BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2D8101BE2928C0028A8BB /* Images.xcassets in Resources */,
+				84B2D8021BE2928C0028A8BB /* InfoPlist.strings in Resources */,
+				84B2D80B1BE2928C0028A8BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2D8131BE2928C0028A8BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2D8211BE2928C0028A8BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B2D7F01BE2928C0028A8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2D80E1BE2928C0028A8BB /* ViewController.m in Sources */,
+				84B2D8081BE2928C0028A8BB /* AppDelegate.m in Sources */,
+				84B2D8041BE2928C0028A8BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2D8111BE2928C0028A8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2D8231BE2928C0028A8BB /* RestaurantTADTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B2D81B1BE2928C0028A8BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B2D7F31BE2928C0028A8BB /* RestaurantTAD */;
+			targetProxy = 84B2D81A1BE2928C0028A8BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B2D8001BE2928C0028A8BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B2D8011BE2928C0028A8BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84B2D8091BE2928C0028A8BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B2D80A1BE2928C0028A8BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B2D81F1BE2928C0028A8BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B2D8201BE2928C0028A8BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B2D8241BE2928C0028A8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B2D8251BE2928C0028A8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B2D8271BE2928C0028A8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestaurantTAD/RestaurantTAD-Prefix.pch";
+				INFOPLIST_FILE = "RestaurantTAD/RestaurantTAD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84B2D8281BE2928C0028A8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestaurantTAD/RestaurantTAD-Prefix.pch";
+				INFOPLIST_FILE = "RestaurantTAD/RestaurantTAD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84B2D82A1BE2928C0028A8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RestaurantTAD.app/RestaurantTAD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestaurantTAD/RestaurantTAD-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RestaurantTADTests/RestaurantTADTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84B2D82B1BE2928C0028A8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RestaurantTAD.app/RestaurantTAD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestaurantTAD/RestaurantTAD-Prefix.pch";
+				INFOPLIST_FILE = "RestaurantTADTests/RestaurantTADTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B2D7EF1BE2928C0028A8BB /* Build configuration list for PBXProject "RestaurantTAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2D8241BE2928C0028A8BB /* Debug */,
+				84B2D8251BE2928C0028A8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B2D8261BE2928C0028A8BB /* Build configuration list for PBXNativeTarget "RestaurantTAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2D8271BE2928C0028A8BB /* Debug */,
+				84B2D8281BE2928C0028A8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84B2D8291BE2928C0028A8BB /* Build configuration list for PBXNativeTarget "RestaurantTADTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B2D82A1BE2928C0028A8BB /* Debug */,
+				84B2D82B1BE2928C0028A8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B2D7EC1BE2928C0028A8BB /* Project object */;
+}
