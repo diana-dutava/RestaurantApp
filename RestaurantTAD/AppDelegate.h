@@ -11,5 +11,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property NSMutableArray *restaurants;
+@property NSInteger chosen;
 
 @end

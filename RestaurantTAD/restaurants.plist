@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Restaurants</key>
+	<array>
+		<dict>
+			<key>Tip</key>
+			<string>45000</string>
+			<key>Date</key>
+			<date>2015-11-15T20:12:13Z</date>
+			<key>Name</key>
+			<string>Wood &amp; Fire</string>
+		</dict>
+		<dict>
+			<key>Tip</key>
+			<string>50000</string>
+			<key>Date</key>
+			<date>2015-11-15T20:10:58Z</date>
+			<key>Name</key>
+			<string>Calabria</string>
+		</dict>
+		<dict>
+			<key>Tip</key>
+			<string>20000</string>
+			<key>Date</key>
+			<date>2015-11-14T07:37:15Z</date>
+			<key>Name</key>
+			<string>KFC</string>
+		</dict>
+		<dict>
+			<key>Tip</key>
+			<string>15000</string>
+			<key>Date</key>
+			<date>2015-11-14T07:39:04Z</date>
+			<key>Name</key>
+			<string>Burger King</string>
+		</dict>
+	</array>
+</dict>
+</plist>

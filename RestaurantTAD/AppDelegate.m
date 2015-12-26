@@ -10,9 +10,23 @@
 
 @implementation AppDelegate
 
+@synthesize restaurants = _restaurants;
+@synthesize chosen = _chosen;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.restaurants = [[NSMutableArray alloc] init];
+    NSPropertyListFormat format;
+    NSString *errorDesc = nil;
+    NSString *plistPath = [[NSBundle mainBundle] pathForResource: @"restaurants" ofType: @"plist"];
+    NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
+    NSDictionary *temp = (NSDictionary *)  [NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&format errorDescription:&errorDesc];
+    if(!temp){
+        NSLog(@"Error reading plist %@, format: %d", errorDesc, format);
+    }
+    self.restaurants = [NSMutableArray arrayWithArray:[temp objectForKey: @"Restaurants"]];
+
     return YES;
 }
 							

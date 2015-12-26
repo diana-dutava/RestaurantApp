@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A067B21C07A6F900738F37 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A067B11C07A6F900738F37 /* TableViewController.m */; };
+		84A067B51C07B11B00738F37 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A067B41C07B11B00738F37 /* TableViewCell.m */; };
+		84A067B81C07BFEA00738F37 /* AddingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A067B71C07BFEA00738F37 /* AddingTableViewController.m */; };
+		84AC1D761C08E6C10087B9ED /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC1D751C08E6C10087B9ED /* SecondTableViewController.m */; };
 		84B2D7F81BE2928C0028A8BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7F71BE2928C0028A8BB /* Foundation.framework */; };
 		84B2D7FA1BE2928C0028A8BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7F91BE2928C0028A8BB /* CoreGraphics.framework */; };
 		84B2D7FC1BE2928C0028A8BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7FB1BE2928C0028A8BB /* UIKit.framework */; };
@@ -21,6 +25,11 @@
 		84B2D8191BE2928C0028A8BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B2D7FB1BE2928C0028A8BB /* UIKit.framework */; };
 		84B2D8211BE2928C0028A8BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D81F1BE2928C0028A8BB /* InfoPlist.strings */; };
 		84B2D8231BE2928C0028A8BB /* RestaurantTADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D8221BE2928C0028A8BB /* RestaurantTADTests.m */; };
+		84B2D82D1BE29F3A0028A8BB /* restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B2D82C1BE29F3A0028A8BB /* restaurants.plist */; };
+		84D9F6FB1C089A24003C6B63 /* TipTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9F6FA1C089A24003C6B63 /* TipTableViewController.m */; };
+		84D9F7001C08A8F9003C6B63 /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9F6FD1C08A8F9003C6B63 /* Counter.m */; };
+		84D9F7011C08A8F9003C6B63 /* Tip.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9F6FF1C08A8F9003C6B63 /* Tip.m */; };
+		84E884811BE2D2E400C2D2B5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E884801BE2D2E400C2D2B5 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84A067B01C07A6F900738F37 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		84A067B11C07A6F900738F37 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		84A067B31C07B11A00738F37 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		84A067B41C07B11B00738F37 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		84A067B61C07BFEA00738F37 /* AddingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddingTableViewController.h; sourceTree = "<group>"; };
+		84A067B71C07BFEA00738F37 /* AddingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddingTableViewController.m; sourceTree = "<group>"; };
+		84AC1D741C08E6C10087B9ED /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		84AC1D751C08E6C10087B9ED /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
 		84B2D7F41BE2928C0028A8BB /* RestaurantTAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantTAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2D7F71BE2928C0028A8BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84B2D7F91BE2928C0028A8BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,15 @@
 		84B2D81E1BE2928C0028A8BB /* RestaurantTADTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestaurantTADTests-Info.plist"; sourceTree = "<group>"; };
 		84B2D8201BE2928C0028A8BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84B2D8221BE2928C0028A8BB /* RestaurantTADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantTADTests.m; sourceTree = "<group>"; };
+		84B2D82C1BE29F3A0028A8BB /* restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = restaurants.plist; sourceTree = "<group>"; };
+		84D9F6F91C089A24003C6B63 /* TipTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipTableViewController.h; sourceTree = "<group>"; };
+		84D9F6FA1C089A24003C6B63 /* TipTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipTableViewController.m; sourceTree = "<group>"; };
+		84D9F6FC1C08A8F9003C6B63 /* Counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Counter.h; sourceTree = "<group>"; };
+		84D9F6FD1C08A8F9003C6B63 /* Counter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
+		84D9F6FE1C08A8F9003C6B63 /* Tip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tip.h; sourceTree = "<group>"; };
+		84D9F6FF1C08A8F9003C6B63 /* Tip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tip.m; sourceTree = "<group>"; };
+		84E8847F1BE2D2E400C2D2B5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84E884801BE2D2E400C2D2B5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +138,30 @@
 		84B2D7FD1BE2928C0028A8BB /* RestaurantTAD */ = {
 			isa = PBXGroup;
 			children = (
+				84D9F6FC1C08A8F9003C6B63 /* Counter.h */,
+				84D9F6FD1C08A8F9003C6B63 /* Counter.m */,
+				84D9F6FE1C08A8F9003C6B63 /* Tip.h */,
+				84D9F6FF1C08A8F9003C6B63 /* Tip.m */,
 				84B2D8061BE2928C0028A8BB /* AppDelegate.h */,
 				84B2D8071BE2928C0028A8BB /* AppDelegate.m */,
 				84B2D8091BE2928C0028A8BB /* Main.storyboard */,
+				84A067B01C07A6F900738F37 /* TableViewController.h */,
+				84A067B11C07A6F900738F37 /* TableViewController.m */,
+				84A067B61C07BFEA00738F37 /* AddingTableViewController.h */,
+				84A067B71C07BFEA00738F37 /* AddingTableViewController.m */,
+				84D9F6F91C089A24003C6B63 /* TipTableViewController.h */,
+				84D9F6FA1C089A24003C6B63 /* TipTableViewController.m */,
+				84AC1D741C08E6C10087B9ED /* SecondTableViewController.h */,
+				84AC1D751C08E6C10087B9ED /* SecondTableViewController.m */,
+				84A067B31C07B11A00738F37 /* TableViewCell.h */,
+				84A067B41C07B11B00738F37 /* TableViewCell.m */,
 				84B2D80C1BE2928C0028A8BB /* ViewController.h */,
 				84B2D80D1BE2928C0028A8BB /* ViewController.m */,
+				84E8847F1BE2D2E400C2D2B5 /* SecondViewController.h */,
+				84E884801BE2D2E400C2D2B5 /* SecondViewController.m */,
 				84B2D80F1BE2928C0028A8BB /* Images.xcassets */,
 				84B2D7FE1BE2928C0028A8BB /* Supporting Files */,
+				84B2D82C1BE29F3A0028A8BB /* restaurants.plist */,
 			);
 			path = RestaurantTAD;
 			sourceTree = "<group>";
@@ -231,6 +274,7 @@
 				84B2D8101BE2928C0028A8BB /* Images.xcassets in Resources */,
 				84B2D8021BE2928C0028A8BB /* InfoPlist.strings in Resources */,
 				84B2D80B1BE2928C0028A8BB /* Main.storyboard in Resources */,
+				84B2D82D1BE29F3A0028A8BB /* restaurants.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +293,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E884811BE2D2E400C2D2B5 /* SecondViewController.m in Sources */,
+				84A067B81C07BFEA00738F37 /* AddingTableViewController.m in Sources */,
+				84A067B51C07B11B00738F37 /* TableViewCell.m in Sources */,
 				84B2D80E1BE2928C0028A8BB /* ViewController.m in Sources */,
 				84B2D8081BE2928C0028A8BB /* AppDelegate.m in Sources */,
+				84A067B21C07A6F900738F37 /* TableViewController.m in Sources */,
 				84B2D8041BE2928C0028A8BB /* main.m in Sources */,
+				84D9F7001C08A8F9003C6B63 /* Counter.m in Sources */,
+				84D9F6FB1C089A24003C6B63 /* TipTableViewController.m in Sources */,
+				84AC1D761C08E6C10087B9ED /* SecondTableViewController.m in Sources */,
+				84D9F7011C08A8F9003C6B63 /* Tip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +508,7 @@
 				84B2D8281BE2928C0028A8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84B2D8291BE2928C0028A8BB /* Build configuration list for PBXNativeTarget "RestaurantTADTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +517,7 @@
 				84B2D82B1BE2928C0028A8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
